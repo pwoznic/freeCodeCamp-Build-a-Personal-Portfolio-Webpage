@@ -1,0 +1,155 @@
+#navbar {
+  position: fixed;
+  float: right;
+
+  font-family: Arial, sans-serif;
+  width: 100%;
+  background-color: #eee;
+
+  @media (max-width: 800px) {
+    flex-wrap: wrap;
+  }
+}
+#navbar a {
+    text-decoration: none;
+    color: green;
+}
+#navbar ul li {
+  display: inline;
+  float: right;
+  list-style: none;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  margin-top: 50px;
+}
+#welcome-section h1 {
+  font-family: Courier, sans-serif;
+  margin-bottom: 0;
+}
+#welcome-section p {
+  font-family: Arial;
+  color: green;
+  margin-top: 0;
+  padding-top: 0;
+}
+#project-heading {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  width: 80%;
+  height: 100px;
+  margin-bottom: -50px;
+}
+#project-heading h2 {
+  font-family: Georgia, serif;
+  color: teal;
+  text-align: center;
+  margin-right: 80px;
+
+}
+#projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+#projects p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.project-tile {
+  display: inline-block;
+  height: 200px;
+  width: 300px;
+  border: 2px solid lightblue;
+  margin: 20px 100px 20px 20px;
+}
+.img {
+  width: 280px;
+  height: 150px;
+  background: url(http://goo.gl/vyAs27) no-repeat scroll 0 0;
+  padding: 5px 5px 5px 5px;
+  }
+.img-text {
+  border-top: 2px solid lightblue;
+}
+#button {
+  display: flex;
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: 80px;
+
+}
+#showall {
+  text-align: center;
+  width: 250px;
+  height: 35px;
+  font-size: 18px;
+  border-radius: 2px;
+  border: 1px solid green;
+  color: teal;
+  font-weight: 800;
+  }
+#portfolio {
+  display: block;
+  text-align: center;
+  background: #66ffcc;
+}
+
+.portfolio-heading {
+  display: inline-block;
+}
+.portfolio-heading h1 {
+  margin-bottom: 0;
+  text-align: center;
+}
+.portfolio-heading p {
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center;
+}
+ /*.plugs {
+  display: block;
+
+  width: 80%;
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+.my-links {
+  display: inline-block;
+  list-style-type: none;
+  border-radius: 100%.
+  border: 2px solid #90C695;
+  width: 100px;
+  height: 100px;
+}
+#footer {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  width: 100%;
+  height: 100px;
+  background-color: darkgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
